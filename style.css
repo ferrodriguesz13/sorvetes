@@ -1,0 +1,87 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+header {
+    background-color: #ffcc00;
+    color: #fff;
+    padding: 15px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.section-intro {
+    background-image: url('sorvete.jpg');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 100px 20px;
+    color: #fff;
+}
+
+.section-intro h2 {
+    font-size: 3em;
+    margin: 0;
+}
+
+.section-intro p {
+    font-size: 1.5em;
+}
+
+.section-sabores, .section-sobre, .section-contato {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.section-sabores h2, .section-sobre h2, .section-contato h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.sabor {
+    margin: 20px 0;
+}
+
+.sabor h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+}
+
+footer p {
+    margin: 0;
+}
